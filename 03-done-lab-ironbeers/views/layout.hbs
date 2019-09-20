@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ironbeers Review</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/styles.css">
 </head>
 <body>
-    <nav>
-        {{!-- add links here --}}
-        <a href="/"> Home </a> &nbsp; 
-        <a href="/beers"> Beers  </a> &nbsp;
-        <a href="/random-beer"> Random Beer  </a>
-    </nav>
-    {{!-- any page we want to render will be "plugged in" here --}}
-    {{!-- this is the only page that will have full html setup --}}
-    {{!-- if there's anything you want to have on each page, it will come from here
-    ex. navbar, header, footer, etc --}}
-    
-    {{{ body }}}
+<nav id="nav-bar">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/beers">Beers</a></li>
+        <li><a href="/random-beers">Random Beer</a></li>
+    </ul>
+</nav>
+
+{{{body}}}
+
+<footer>
+   <p>Develop by Ironhack ;)</p> 
+</footer>
+
 </body>
 </html>
