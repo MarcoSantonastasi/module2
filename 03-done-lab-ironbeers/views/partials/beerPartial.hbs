@@ -1,9 +1,8 @@
-<div>
-    {{!-- we are creating partial because this piece of code will 
-    be repeated multiple times through the whole app   --}}
-    Name: {{ name }} 
-    <br>
-    Tagline: {{ tagline }}
-    <br>
-    <img src="{{ image_url }}" width="200" alt="">
+<div class="card">
+  <img class="card-img-top" src='{{image_url}}' alt="beer-img">
+  <div class="card-body">
+    <h5 class="card-name">{{name}}</h5>
+    <p class="card-text">{{tagline}}</p>
+    <p class="card-desc">{{description}}</p>
+  </div>
 </div>
